@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/home_mvp_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="name"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "/>
+    <EditText
+        android:id="@+id/home_mvp_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="email"/>
+    <EditText
+        android:id="@+id/home_mvp_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:digits="0123456789*qwertzuiopasdfghjklyxcvbnm"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/home_mvp_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/green"
+        android:layout_marginTop="@dimen/largeSpace"
+        android:text="@string/ok_button_text"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/red"
+        android:visibility="gone"
+        tools:text="@string/name_error"
+        tools:visibility="visible"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_display"
+        android:textSize="18sp"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:paddingTop="20dp"/>
+    <include
+        layout="@layout/mvp_recycler_view"/>
+
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginActivityParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    android:paddingTop="@dimen/smallSpace"
+    android:layout_marginBottom="@dimen/smallSpace"
+    tools:context=".activities.LaunchActivity">
+
+    <include
+        layout="@layout/my_toolbar"/>
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        />-->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:text="@string/hello"
+        android:textSize="@dimen/subtitleTextSize"
+        android:layout_gravity="center"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:maxLines="3"
+        android:lineSpacingExtra="5dp"
+        android:background="@color/green"
+        android:text="@string/friend"
+        android:textAlignment="viewEnd"
+        android:textSize="@dimen/subtitleTextSize"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/myImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:paddingLeft="@dimen/largeSpace"
+        android:paddingRight="@dimen/largeSpace"
+        android:paddingBottom="@dimen/extraSmallSpace"
+        android:layout_margin="@dimen/smallSpace"
+        android:src="@drawable/ic_launcher_background"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/left_border"
+        android:text="@string/capsOn"
+        android:layout_gravity="center"
+        android:textAllCaps="true" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/myButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:drawableLeft="@drawable/ic_car"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/clickHere"
+        android:textAppearance="@style/buttons_text" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hello"
+        android:maxLength="6"
+        android:inputType="textCapCharacters"/>
+
+    <com.filip.sample.views.MyCompositeView
+        android:id="@+id/myCompoundView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

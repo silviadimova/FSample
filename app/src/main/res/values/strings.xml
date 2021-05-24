@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FilipSample</string>
+    <string name="hello">Hello</string>
+    <string name="friend"><u>fdgfgfhgfgFriendcghvgh <i>gfdgfghhj</i></u> njnhnhu hunnuh juunuhn unuh. uhnjnujjm hbhbbhb hbhbhbhu uhbhubhbub jhbh</string>
+    <string name="capsOn"><b>CAPS</b> on</string>
+    <string name="clickHere">click here</string>
+    <string name="vehicle_data_search">Working to find your vehicle data</string>
+    <string name="try_again">Try again</string>
+    <string name="car_name">Peugeot RCZ</string>
+    <string name="car_description">2013, Coupe, Manual, Diesel, 1997cc, White</string>
+    <string name="car_plate_number"><b>KY13PKD</b></string>
+    <string name="select">Select > </string>
+    <string name="cancel_button_text">cancel</string>
+    <string name="ok_button_text">OK</string>
+    <string name="no_camera">Camera unavailable</string>
+    <string name="some_error">Empty Text Error</string>
+    <string name="name_error">Please add name</string>
+    <string name="email_error">Please add email</string>
+    <string name="password_error">Please add password</string>
+    <string name="empty_name_error">Please add name</string>
+    <string name="empty_email_error">Please add email</string>
+    <string name="empty_password_error">Please add password</string>
+    <string name="my_temp"><b>%1$s</b> | <b>%2$s</b> | <b>%3$s</b></string>
+    <string name="details">DETAILS</string>
+</resources>
